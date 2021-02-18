@@ -14,8 +14,10 @@ function Product(props) {
                         <div class="text">
                         <h4>{product.title}</h4>
                         <p>{product.subtext}</p>
-                    </div>
-            </div>
+                        </div>
+                    
+                     </div>
+                     <h4 className="number">{product.id}</h4>
         </div>
   ))}
           {/* <div class="product col-md-3">
