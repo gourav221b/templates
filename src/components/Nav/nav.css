@@ -1,0 +1,150 @@
+
+
+.sidenav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 50px;
+}
+
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .sidenav{width: 00px;}
+}
+.brand
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+
+}
+.brand h1
+{
+  font-family: 'Oswald';
+  margin-bottom: 0;color: rgb(250, 250, 250);
+  font-size: 40px ;
+  letter-spacing: 2px;
+}
+.brand h6
+{
+  margin-top: 5px;color: rgb(231, 227, 227);
+}
+.brandName:hover
+{
+  text-decoration: none;
+}
+.menu
+{
+  margin-top: 50px;
+  list-style: none;
+  padding-left: 7%;
+  width: 90%;
+}
+.menu li,.menu a
+{
+  font-family: 'Oswald';
+  font-size: 14px ;
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  color: #ffffffab; 
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.menu a:hover
+{
+  color: #fff;text-decoration: none; transition: 0.2s ease-in-out;
+}
+.active
+{
+  color: goldenrod;
+}
+
+
+.menu li{
+  border-bottom: 0.5px solid #ffffff31;
+  margin: 10px 0;
+ 
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.socialicons
+{
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.socialicons a 
+{
+  color: #fff;
+  margin: 0 8px;
+}
+.navcopyright
+{
+  text-align: center;
+  color: #686262;
+  font-family: 'Raleway',sans-serif;
+  font-size: 8px;
+  margin-top: 20px;
+}
+
+.open
+{
+  width: 250px;
+}
+
+.hamburgerMenu
+{
+  position: fixed;
+  left: 20px;
+  top: 10px;
+  background: #111;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  
+}
+.hamburgerMenu:hover
+{
+  transform: scale(1.05);
+}
+.closeBtn
+  {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    background: #111;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    display: none;
+  }
+  #navClose:hover 
+  {
+    color: goldenrod;
+  }

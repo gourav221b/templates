@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Nav from './components/Nav/Nav'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Blog from './components/Blogs/Blogs'
+import Contact from './components/Contact/Contact'
+import Services from './components/Services/Services'
+import Works from './components/Works/Works'
+
+
+import Footer from './components/Footer/Footer'
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Router>
+       <Nav/>
+       <div className="main">
+       <Switch>
+         
+        <Route exact path="/" component={Home}/>
+        <Route path="/home" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/works" component={Works}/>
+        <Route path="/services" component={Services}/>
+        <Route path="/blogs" component={Blog}/>
+        <Route path="/contact" component={Contact}/>
+        
+       </Switch>
+        <Footer/>
+       </div>
+     </Router>
     </div>
   );
 }
 
+
 export default App;
+
+// http://webredox.net/demo/wp/doro/dark/

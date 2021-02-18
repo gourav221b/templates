@@ -1,0 +1,53 @@
+.serivceWrapper
+{
+    padding: 5vh 0; 
+}
+
+.serviceDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 2% 1%;
+    min-height: 50vh;
+}
+.serviceGrid
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.serviceGrid ul
+{
+    list-style: none;
+}
+.serviceGrid ul li
+{
+    margin-top: 5px;
+    color: gray;
+}
+.serviceCard 
+{
+    width: 40%;
+}
+.serviceCard h5
+{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+}
+.serviceIcon
+{
+    margin-right: 33px;
+}
+.serviceDiv .image
+{
+margin-left: 0;
+
+}
+.serviceDiv .image img
+{
+box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}

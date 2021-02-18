@@ -1,0 +1,21 @@
+.heading
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin: 10px 0;
+    margin-left: 30px;
+    width: auto;
+    padding: 1%;
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+}
+
+.heading h6
+{
+    color: #777272;
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 14px;
+}

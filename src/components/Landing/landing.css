@@ -1,0 +1,28 @@
+.home
+{
+    flex:1;
+    background:url(https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)#00000056;
+   
+    background-blend-mode: darken;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
+}
+.headercontent
+{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    font-family: "Oswald",sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 150%;
+    
+}
+#headerText
+{
+    letter-spacing: 2px;
+}

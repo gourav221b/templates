@@ -1,0 +1,52 @@
+.aboutDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    margin-top: 20px;
+}
+.image img
+{
+    width: 100%;
+    height: auto;
+}
+.content
+{
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    color: rgb(44, 43, 43);
+}
+.product i
+{
+    margin: 0 12px;
+}
+@media screen and (max-width:480px)
+{
+    .aboutDiv
+    {
+        justify-content: center;
+    }
+    .content
+    {padding-left: 0 !important;
+    }
+}
+
+.teamDiv .overlay
+{
+    background:#1b1414b7 ;
+}
+.teamDiv .product
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important;
+    border-radius: 5px;
+}
+@media screen and (max-width:1100px)
+{
+    .overlay
+    {
+        background: #2b2a2a63;
+        opacity: 1;
+    }
+}
