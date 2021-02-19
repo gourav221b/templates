@@ -69,7 +69,10 @@ const Nav=()=> {
                 <a href="#"><i className="fa fa-twitter"></i></a>
                
             </div>
-            <div className="navcopyright">© Prosto 2021 | All rights reserved.</div>
+            <div className="navcopyright">© Prosto 2021 | All rights reserved.  
+            <br/>Images|<a target="_blank" href="www.pexels.com"> Pexels </a> | <a href="https://unsplash.com/" target="_blank">Unsplash </a><br/>Icons| <a href="https://akaricons.com/" target="_blank" > akarIcons</a>
+            
+            </div>
             </section>
         </div>
     )

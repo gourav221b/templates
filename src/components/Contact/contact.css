@@ -1,0 +1,84 @@
+.leaflet-container {
+    width: 95%;
+    margin: 10px 2.5%;
+    height: 70vh;
+  z-index: 7;
+ 
+  background: transparent;
+    
+  }
+.contactDiv
+{
+    padding: 2% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+}
+.contactDetail
+{
+    display: flex;
+    margin: 10px 0;
+    color: gray;
+    font-family: 'Raleway',sans-serif;
+}
+.contactDetail span
+{
+    margin-left: 6px;
+    /* color: gray; */
+}
+.contactform
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.inputWrapper
+{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    font-family: 'Raleway',sans-serif;
+    color: rgb(43, 42, 42);
+    min-height: 80px;
+  
+    
+}
+.inputWrapper label
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.inputWrapper .inputBox
+{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.459);
+    margin-top: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.inputWrapper .inputBox:hover,.inputWrapper .inputBox:focus
+{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.inputWrapper textarea
+{
+    height: 200px;
+    width: auto;
+}
+.submitbtn
+{
+    width: 40%;
+    padding: 12px ;
+    background: #111;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+.submitbtn:hover
+{
+    background:#1aaf69 ;
+}

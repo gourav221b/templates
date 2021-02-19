@@ -23,7 +23,7 @@
   margin-left: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav{width: 00px;}
@@ -112,10 +112,13 @@
   font-size: 8px;
   margin-top: 20px;
 }
-
+.navcopyright a
+{
+  font-size: 8px;
+}
 .open
 {
-  width: 250px;
+  width: 280px;
 }
 
 .hamburgerMenu
