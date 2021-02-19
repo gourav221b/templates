@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact'
 import Services from './components/Services/Services'
 import Works from './components/Works/Works'
 
-
+import Missing from './components/Missing/Missing'
 import Footer from './components/Footer/Footer'
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="/services" component={Services}/>
         <Route path="/blogs" component={Blog}/>
         <Route path="/contact" component={Contact}/>
-        
+        <Route path="*" component={Missing} />
        </Switch>
         <Footer/>
        </div>
