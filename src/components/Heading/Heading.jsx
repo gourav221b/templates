@@ -4,7 +4,8 @@ import './heading.css'
 function Heading(props) {
     return (
         <div className="heading">
-            <h6>{props.genre}</h6>
+            <h6>{props.genre} {props.blogtag}</h6>
+           
             <h2>{props.title}</h2>
         </div>
     )

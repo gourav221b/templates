@@ -9,6 +9,12 @@ import Contact from './components/Contact/Contact'
 import Services from './components/Services/Services'
 import Works from './components/Works/Works'
 
+import Blog0 from './components/Blogs/blogs/Learn-react-with-us';
+import Blog1 from './components/Blogs/blogs/Data-visualization';
+import Blog2 from './components/Blogs/blogs/Managing-your-business-with-6-easy-steps';
+import Blog3 from './components/Blogs/blogs/Write-intriguing-content-to-bring-in-customers';
+
+
 import Missing from './components/Missing/Missing'
 import Footer from './components/Footer/Footer'
 function App() {
@@ -26,6 +32,20 @@ function App() {
         <Route path="/works" component={Works}/>
         <Route path="/services" component={Services}/>
         <Route path="/blogs" component={Blog}/>
+        <Route path="/learn-react-with-us" component={Blog0}/>
+        <Route path="/data-visualization" component={Blog1}/>
+        <Route path="/managing-your-business-with-6-easy-steps" component={Blog2}/>
+        <Route path="/write-intriguing-content-to-bring-in-customers" component={Blog3}/>
+
+
+
+
+
+
+
+
+
+
         <Route path="/contact" component={Contact}/>
         <Route path="*" component={Missing} />
        </Switch>
