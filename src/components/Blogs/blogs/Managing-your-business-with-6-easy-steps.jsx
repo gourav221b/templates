@@ -5,8 +5,10 @@ import AllBlog from '../AllBlog'
 function Blog2() {
     return (
         <>
+            <div className="blogHead">
         <Heading genre={BLogList[2].date} blogtag={BLogList[2].category} title={BLogList[2].name}/>
-        <div className=" blogWrap row">
+       </div> 
+       <div className=" blogWrap row">
         <div className="mainBlog col-md-8">
             <div className="blogImage blogpageImage">
                 <img src="https://www.tpx.com/wp-content/uploads/2020/10/10-Things-Business-Management-Needs-To-Understand-About-Cybersecurity.jpg" alt=""/>

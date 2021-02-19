@@ -33,8 +33,17 @@ const Nav=()=> {
      document.getElementById('mySidenav').classList.remove('open')
        document.getElementById('navClose').style.display="none";
     }
+   
+//  function checkMobile()
+//     {
+
     
- 
+//  if(window.innerWidth<800)
+//  {
+//    closeNav();
+//    console.log('mobile')
+//  }
+// }
 
 
     return (
@@ -55,12 +64,12 @@ const Nav=()=> {
             <Link to='/' className='brandName'><h1>prosto</h1><h6>Designing your dreams.</h6></Link>
             </div>
             <ul className="menu">
-            <li><NavLink to="/" activeClassName="active" className="navMenu" >Home</NavLink></li>
-            <li><NavLink to="/about" activeClassName="active" className="navMenu">About</NavLink></li>
-            <li><NavLink to="/works" activeClassName="active" className="navMenu">Works</NavLink></li>
-            <li><NavLink to="/services" activeClassName="active" className="navMenu">Services</NavLink></li>
-            <li><NavLink to="/blogs" activeClassName="active" className="navMenu">Blogs</NavLink></li>
-            <li><NavLink to="/contact" activeClassName="active" className="navMenu">Contact</NavLink></li>
+            <li><NavLink to="/" activeClassName="active" className="navMenu"  >Home</NavLink></li>
+            <li><NavLink to="/about" activeClassName="active" className="navMenu" >About</NavLink></li>
+            <li><NavLink to="/works" activeClassName="active" className="navMenu" >Works</NavLink></li>
+            <li><NavLink to="/services" activeClassName="active" className="navMenu" >Services</NavLink></li>
+            <li><NavLink to="/blogs" activeClassName="active" className="navMenu" >Blogs</NavLink></li>
+            <li><NavLink to="/contact" activeClassName="active" className="navMenu" >Contact</NavLink></li>
             </ul>
             <div className="socialicons">
                 <a href="#"><i className="fa fa-facebook"></i></a>

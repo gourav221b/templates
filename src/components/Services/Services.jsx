@@ -75,7 +75,9 @@ function Services() {
               </div>
             </section>
             <section className="products">
+            <div className="blogHead">
                 <Heading genre="Portfolio" title="Recent Projects"/>
+                </div>
                 <Product count={4}/>
             </section>
         </div>

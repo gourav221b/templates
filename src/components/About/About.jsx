@@ -7,8 +7,10 @@ function About(props) {
     window.scrollTo(0,0)
     return (
         <div>
+             <div className="blogHead">
             <Heading genre="Who we Are" title="About Us"/>
-            <div className="aboutDiv row">
+           </div> 
+           <div className="aboutDiv row">
                 <div className="col-md-6 image ">
                     <img src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="team image"/>
                 </div>

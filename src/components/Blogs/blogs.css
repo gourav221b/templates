@@ -13,6 +13,10 @@
     font-family: "Poppins",sans-serif;
     margin: 40px 0;
 }
+.blogHead
+{
+    margin-top: 10vh;
+}
 .blogImage
 {
     width: 100%;

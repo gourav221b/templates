@@ -5,8 +5,10 @@ import AllBlog from '../AllBlog'
 function Blog3() {
     return (
         <>
-        <Heading genre={BLogList[3].date} blogtag={BLogList[3].category} title={BLogList[3].name}/>
-        <div className=" blogWrap row">
+            <div className="blogHead">
+            <Heading genre={BLogList[3].date} blogtag={BLogList[3].category} title={BLogList[3].name}/>
+            </div> 
+       <div className=" blogWrap row">
         <div className="mainBlog col-md-8">
             <div className="blogImage blogpageImage">
                 <img src="https://miro.medium.com/max/2000/1*EioSQpM0_jj-VeOPpcNubw.jpeg" alt=""/>

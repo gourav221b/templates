@@ -6,7 +6,9 @@ function Blog1() {
     return (
         <div>
               <>
+              <div className="blogHead">
             <Heading genre={BLogList[1].date} blogtag={BLogList[1].category} title={BLogList[1].name}/>
+            </div>
             <div className=" blogWrap row">
             <div className="mainBlog col-md-8">
                 <div className="blogImage blogpageImage">

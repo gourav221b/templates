@@ -6,7 +6,9 @@ import AllBlog from '../AllBlog';
 function Blog0() {
     return (
         <>
+                <div className="blogHead">
             <Heading genre={BLogList[0].date} blogtag={BLogList[0].category} title={BLogList[0].name}/>
+            </div>
             <div className=" blogWrap row">
             <div className="mainBlog col-md-8">
                 <div className="blogImage blogpageImage">
