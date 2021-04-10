@@ -8,7 +8,9 @@ function Services() {
     return (
         <div>   
             <section className="serivceWrapper">
+            <div className="blogHead">
               <Heading genre="What do you need?" title="Services"/>
+              </div>
               <div className="serviceDiv row">
                   
                   <div className="serviceGrid col-md-7 row">

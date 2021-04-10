@@ -70,6 +70,7 @@
   color: #ffffffab; 
   padding: 10px 0;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .menu a:hover
 {

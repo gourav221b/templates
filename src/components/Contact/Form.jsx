@@ -1,4 +1,5 @@
 import React from 'react'
+import './contact.css'
 import { Map, MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import * as Icons from 'akar-icons';
 function Form() {

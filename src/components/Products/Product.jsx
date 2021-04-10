@@ -1,5 +1,6 @@
 import React from 'react'
 import './product.css'
+import {Link} from 'react-router-dom'
 import products from './productlist.json'
 function Product(props) {
    
@@ -8,8 +9,9 @@ function Product(props) {
             {products.filter(productAll => 
   
   productAll.id<props.count).map(product => (
-<div class="product col-md-3">
-            <img src={product.image} alt="Avatar" class="image"/>
+    
+     <div class="product col-md-3">
+            <Link to={product.path}> <img src={product.image} alt="Avatar" class="image"/>
                     <div class="overlay">
                         <div class="text">
                         <h4>{product.title}</h4>
@@ -18,7 +20,10 @@ function Product(props) {
                     
                      </div>
                      <h4 className="number">{product.id}</h4>
-        </div>
+        
+                     </Link>
+    </div>
+      
   ))}
           {/* <div class="product col-md-3">
             <img src="https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Avatar" class="image"/>
